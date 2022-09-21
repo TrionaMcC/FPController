@@ -18,7 +18,8 @@ public class PlayerMovement : MonoBehaviour
     public float jumpHeight = 3f;
 
 
-    // Update is called once per frame
+    //wow github
+
     void Update()
     {
         grounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
